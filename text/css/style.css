@@ -26,3 +26,27 @@ nav li a {
 nav li a:hover {
 	background-color: #111;
 }
+
+.title {
+	background-color: #ddd;
+	padding: 10px;
+	text-align: center;
+}
+
+.image-description {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	margin: 10px;
+	flex: 1;
+}
+
+.description {
+	flex: 2;
+	padding: 10px;
+}
