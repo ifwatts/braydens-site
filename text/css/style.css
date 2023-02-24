@@ -28,7 +28,8 @@ nav li a:hover {
 }
 
 .title {
-	background-color: #ddd;
+	background-color: #000;
+	color: #8bc34a;
 	padding: 10px;
 	text-align: center;
 }
@@ -38,9 +39,8 @@ nav li a:hover {
 	flex-wrap: wrap;
 	align-items: center;
 }
-
 img {
-	max-width: 100%;
+	max-width: 200px;
 	height: auto;
 	margin: 10px;
 	flex: 1;
