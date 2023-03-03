@@ -1,10 +1,10 @@
-const menuButton = document.getElementById("menu-button");
-const menu = document.getElementById("menu");
+var menuButton = document.getElementById("menu-button");
+var menu = document.getElementById("menu");
 
-menuButton.addEventListener("click", function() {
-    if (menu.style.display === "none") {
+menuButton.addEventListener("click", function(){
+    if (menu.style.display === "none"){
         menu.style.display = "block";
-    } else {
+    }else{
         menu.style.display = "none";
     }
 });
