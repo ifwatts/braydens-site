@@ -1,5 +1,5 @@
-var menuButton = document.getElementById("menu-button");
-var menu = document.getElementById("menu");
+const menuButton = document.getElementById("menu-button");
+const menu = document.getElementById("menu");
 
 menuButton.addEventListener("click", function() {
     if (menu.style.display === "none") {
