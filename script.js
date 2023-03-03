@@ -1,3 +1,4 @@
+
 var menuButton = document.getElementById("menu-button");
 var menu = document.getElementById("menu");
 
