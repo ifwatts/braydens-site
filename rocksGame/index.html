@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Game of Rocks</title>
+	<link rel="stylesheet" type="text/css" href="../text/css/style.css">
+    <script src="script.js"></script>
+</head>
+<body onLoad="askForName();">
+    <header>
+		<div class="title">
+			<h1>Game of Rocks</h1>
+		</div>
+    </header>
+    <main>
+        <button class="button button1" onclick="window.location='../index.html';">Home</button>
+		<div id="menu">
+			<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="rocksGame/index.html">Game of Rocks</a></li>
+			<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+        <div class="grid-container">
+            <div class="item1">
+                <b><div id="rockPileMsg"><h1>Rocks in the Pile: 21</h1></div><input type="hidden" id="rockPile" value="21"></b>
+                <p id="gameMsg"></p>
+
+            </div>
+            <div class="item2">
+                <div id="name"></div>
+                <img src="imgs/PlayerReady.jpeg" alt="User Ready" style="width:100%">
+                <br>
+                <p id="user_msg">Welcome to the <b>Game of Rocks</b></p>
+                <br>
+                <button class="button button1" type="button" onclick="userPicksRock(1);" id="btn1"> 1 </button>
+                <button class="button button1" type="button" onclick="userPicksRock(2);" id="btn2"> 2 </button>
+                <button class="button button1" type="button" onclick="userPicksRock(3);" id="btn3"> 3 </button>
+
+            </div>
+            <div class="item3">
+                Computer AI<br>
+                <img src="imgs/RobotWithRocks.png" alt="AI Ready" style="width:100%">
+                <br>
+                <p id="ai_msg">AI Apponent is Ready..</p>
+            </div>
+            <div class="item4">
+                <button class="button button1" type="button" onclick="restartGame(); " id="btnRestartGame" >Restart Game</button>
+            </div>
+
+        </div>
+    
+        
+</main>
+</body>
+</html>
